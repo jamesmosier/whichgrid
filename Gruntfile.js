@@ -97,13 +97,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-build-control');
     grunt.loadNpmTasks('grunt-contrib-clean');
 
-    // // Custom tasks
-    // grunt.registerTask('build', ['sass', 'jekyll', 'cssmin', 'uglify']);
-    // grunt.registerTask('default', ['build', 'connect', 'watch']);
-
     // Custom tasks
     grunt.registerTask('build', ['sass', 'cssmin', 'uglify', 'jekyll']);
-    //grunt.registerTask('postbuild', []);
     grunt.registerTask('default', ['build', 'connect', 'watch']);
 
     grunt.registerTask('prod', ['sass', 'jekyll', 'cssmin', 'uglify', 'buildcontrol']);
