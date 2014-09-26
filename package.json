@@ -1,0 +1,22 @@
+{
+  "name": "whichgrid",
+  "private": true,
+  "version": "0.1.0",
+  "description": "So many grids, so little time.",
+  "repository": "https://github.com/whichgrid/whichgrid",
+  "license": "GPL",
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "grunt": "latest",
+    "grunt-autoprefixer": "~0.6.3",
+    "grunt-browser-sync": "~0.4.4",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-sass": "~0.9.0",
+    "grunt-build-control": "^0.1.3",
+    "grunt-contrib-clean": "^0.6.0"
+  }
+}

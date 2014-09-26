@@ -1,0 +1,132 @@
+@import 'normalize';
+@import 'grid';
+@import 'mixins';
+@import 'framework';
+
+a {
+	
+}
+
+a {
+  color: #000;
+  &:hover {
+    color: #999;
+  }
+}
+
+.top-title-wrap {
+	float: left;
+	border-bottom: 1.5px solid #fff;
+	padding-right: 50px;
+	h1 {
+		font-size: 3.2rem;
+		margin-bottom: 0;
+	}
+	p {
+		font-size: 1.4rem;
+		margin-left: 30px;
+	}
+}
+
+.top-statement {
+	margin-top: 35px;
+	position: relative;
+	p {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+}
+
+.name-1 {
+	color: #EE26FF;
+	font-weight: bold;
+}
+
+.name-2 { 
+	color: #E27451;
+	font-weight: bold;
+}
+
+.name-3 {
+	color: #007AFF;
+	font-weight: bold;
+}
+
+.name-4 {
+	color: #2FA83E;
+	font-weight: bold;
+}
+
+.bar-wrapper {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.bar-1 {
+	background: #EE26FF;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-2 {
+	background: #E27451;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-3 {
+	background: #007AFF;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-4 {
+	background: #2FA83E;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-5 {
+	background: #F4FC99;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-6 {
+	background: #6EFCB8;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-7 {
+	background: #FC6E6E;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+.bar-8 {
+	background: #8067FF;
+	width: 12.5%;
+	float: left;
+	height: 7.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

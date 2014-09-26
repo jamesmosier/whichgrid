@@ -1,0 +1,15 @@
+# Site settings
+title: Which Grid?
+email: james@jamesdmosier.com
+description: "So many grids, so little time!"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://whichgrid.github.io" # the base hostname & protocol for your site
+twitter_username: jamez14
+github_username:  jamez14
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#Exclude
+exclude: ['node_modules']
