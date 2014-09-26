@@ -13,5 +13,6 @@ There are a ton of responsive grids out there. Trying to choose the right one wo
 #Which repo is this?
 
 There are two repositories for whichgrid. One is for development and the other is for production. There is a Grunt task that published to the production repo when you enter the command `grunt prod`. 
-[The development repo is here](https://github.com/whichgrid/whichgrid):
-[The production repo is here](https://github.com/whichgrid/whichgrid.github.io).
+
+- [The development repo is here](https://github.com/whichgrid/whichgrid).
+- [The production repo is here](https://github.com/whichgrid/whichgrid.github.io).
