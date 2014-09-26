@@ -119,8 +119,16 @@ a {
 	height: 7.5px;
 }
 
+.partial-heading {
+	display: inline-block;
+}
 
-
+.grid-docs-link {
+	margin-left: 20px;
+	&:hover {
+		text-decoration: underline;
+	}
+}
 
 
 

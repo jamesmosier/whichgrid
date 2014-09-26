@@ -753,3 +753,11 @@ a {
   width: 12.5%;
   float: left;
   height: 7.5px; }
+
+.partial-heading {
+  display: inline-block; }
+
+.grid-docs-link {
+  margin-left: 20px; }
+  .grid-docs-link:hover {
+    text-decoration: underline; }
