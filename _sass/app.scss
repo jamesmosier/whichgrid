@@ -119,6 +119,11 @@ a {
 	height: 7.5px;
 }
 
+.partial {
+	float: left;
+	width: 100%;
+}
+
 .partial-heading {
 	display: inline-block;
 }
@@ -130,8 +135,40 @@ a {
 	}
 }
 
+.stats {
+	font-size: 1.1em;
+	section {
+		border-bottom: 1px solid #fff;
+		clear: both;
+		float: left;
+		padding-top: 7px;
+		padding-bottom: 6px;
+		width: 40%;
+		&:nth-child(odd) {
+			background: #B7CFFF;
+		}
+	}
+	.last {
+		border-bottom: none;
+	}
+}
 
+.question {
+	float: left;
+	font-weight: 700;
+	padding-left: 6px;
+}
 
+.answer {
+	float: right;
+	padding-right: 6px;
+}
+
+pre.prettyprint {
+	border: none;
+	font-size: 0.8em;
+	margin: 0;
+}
 
 
 

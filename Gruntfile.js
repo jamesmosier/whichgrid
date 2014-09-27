@@ -53,7 +53,8 @@ module.exports = function(grunt) {
         cssmin: {
             combine: {
                 files: {
-                    'css/app.min.css': ['css/app.css']
+                    'css/app.min.css': ['css/app.css'],
+                    'css/lib.min.css': ['lib/prettify/prettify.css']
                 }
             }
         },
@@ -61,7 +62,8 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/app.min.js': ['js/app.js']
+                    'js/app.min.js': ['js/app.js'],
+                    'js/lib.min.js': ['lib/prettify/prettify.js']
                 }
             }
         },
