@@ -790,6 +790,17 @@ a {
   padding-right: 6px; }
 
 pre.prettyprint {
-  border: none;
+  background: #f7f7f7;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
   font-size: 0.8em;
   margin: 0; }
+
+.indent {
+  padding-left: 15px; }
+
+.syntax .prettyprint {
+  margin-bottom: 4px; }
+
+pre.syntax-example {
+  margin-top: 5px; }
