@@ -804,3 +804,7 @@ pre.prettyprint {
 
 pre.syntax-example {
   margin-top: 5px; }
+
+.media-query-sizes {
+  padding: 0;
+  list-style-type: none; }
