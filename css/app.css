@@ -767,14 +767,21 @@ a {
     text-decoration: underline; }
 
 .stats {
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  float: left;
+  width: 50%; }
+  .stats.col-right {
+    padding-left: 1%;
+    border-left: 1px solid white; }
+  .stats.col-left {
+    padding-right: 1%; }
   .stats section {
     border-bottom: 1px solid white;
     clear: both;
     float: left;
     padding-top: 7px;
     padding-bottom: 6px;
-    width: 40%; }
+    width: 100%; }
     .stats section:nth-child(odd) {
       background: #b7cfff; }
   .stats .last {

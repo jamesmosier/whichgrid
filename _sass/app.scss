@@ -137,13 +137,22 @@ a {
 
 .stats {
 	font-size: 1.1em;
+	float: left;
+	width: 50%;
+	&.col-right {
+		padding-left: 1%;
+		border-left: 1px solid #FFF;
+	}
+	&.col-left {
+		padding-right: 1%;
+	}
 	section {
 		border-bottom: 1px solid #fff;
 		clear: both;
 		float: left;
 		padding-top: 7px;
 		padding-bottom: 6px;
-		width: 40%;
+		width: 100%;
 		&:nth-child(odd) {
 			background: #B7CFFF;
 		}
