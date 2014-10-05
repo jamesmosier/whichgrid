@@ -397,27 +397,38 @@ html, body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1, .h1 {
   font-size: 40px;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  margin: 0.67em 0; }
 
 h2, .h2 {
   font-size: 32px;
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 10px; }
 
 h3, .h3 {
   font-size: 26px;
-  font-size: 1.625rem; }
+  font-size: 1.625rem;
+  margin-top: 20px;
+  margin-bottom: 10px; }
 
 h4, .h4 {
   font-size: 20px;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 h5, .h5 {
   font-size: 18px;
-  font-size: 1.125rem; }
+  font-size: 1.125rem;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 h6, .h6 {
   font-size: 16px;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 hr {
   border: 0;
@@ -661,6 +672,57 @@ textarea.input-elem-lg {
     -moz-transition: -moz-transform 0.5s, all 0.5s;
     transition: transform 0.5s, all 0.5s; }
 
+/* Bootstrap */
+.bootstrap h5 {
+  margin-bottom: 5px;
+  margin-left: -15px; }
+.bootstrap .col-md-4, .bootstrap .col-sm-3, .bootstrap .col-xs-5, .bootstrap .col-xs-2, .bootstrap .col-lg-4, .bootstrap .col-lg-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eeeeee;
+  border: 1px solid #bbbbbb; }
+.bootstrap .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+.bootstrap .row {
+  margin-right: -15px;
+  margin-left: -15px; }
+.bootstrap .col-xs-1, .bootstrap .col-sm-1, .bootstrap .col-md-1, .bootstrap .col-lg-1, .bootstrap .col-xs-2, .bootstrap .col-sm-2, .bootstrap .col-md-2, .bootstrap .col-lg-2, .bootstrap .col-xs-3, .bootstrap .col-sm-3, .bootstrap .col-md-3, .bootstrap .col-lg-3, .bootstrap .col-xs-4, .bootstrap .col-sm-4, .bootstrap .col-md-4, .bootstrap .col-lg-4, .bootstrap .col-xs-5, .bootstrap .col-sm-5, .bootstrap .col-md-5, .bootstrap .col-lg-5, .bootstrap .col-xs-6, .bootstrap .col-sm-6, .bootstrap .col-md-6, .bootstrap .col-lg-6, .bootstrap .col-xs-7, .bootstrap .col-sm-7, .bootstrap .col-md-7, .bootstrap .col-lg-7, .bootstrap .col-xs-8, .bootstrap .col-sm-8, .bootstrap .col-md-8, .bootstrap .col-lg-8, .bootstrap .col-xs-9, .bootstrap .col-sm-9, .bootstrap .col-md-9, .bootstrap .col-lg-9, .bootstrap .col-xs-10, .bootstrap .col-sm-10, .bootstrap .col-md-10, .bootstrap .col-lg-10, .bootstrap .col-xs-11, .bootstrap .col-sm-11, .bootstrap .col-md-11, .bootstrap .col-lg-11, .bootstrap .col-xs-12, .bootstrap .col-sm-12, .bootstrap .col-md-12, .bootstrap .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+.bootstrap .col-xs-1, .bootstrap .col-xs-2, .bootstrap .col-xs-3, .bootstrap .col-xs-4, .bootstrap .col-xs-5, .bootstrap .col-xs-6, .bootstrap .col-xs-7, .bootstrap .col-xs-8, .bootstrap .col-xs-9, .bootstrap .col-xs-10, .bootstrap .col-xs-11, .bootstrap .col-xs-12 {
+  float: left; }
+.bootstrap .col-xs-5 {
+  width: 41.66667%; }
+.bootstrap .col-xs-2 {
+  width: 16.66667%; }
+.bootstrap .container-fluid:before, .bootstrap .container-fluid:after, .bootstrap .row:before, .bootstrap .row:after {
+  display: table;
+  content: " "; }
+.bootstrap .container-fluid:after, .bootstrap .row:after {
+  clear: both; }
+@media (min-width: 992px) {
+  .bootstrap .col-md-1, .bootstrap .col-md-2, .bootstrap .col-md-3, .bootstrap .col-md-4, .bootstrap .col-md-5, .bootstrap .col-md-6, .bootstrap .col-md-7, .bootstrap .col-md-8, .bootstrap .col-md-9, .bootstrap .col-md-10, .bootstrap .col-md-11, .bootstrap .col-md-12 {
+    float: left; } }
+.bootstrap .col-md-4 {
+  width: 33.33333%; }
+@media (min-width: 768px) {
+  .bootstrap .col-sm-1, .bootstrap .col-sm-2, .bootstrap .col-sm-3, .bootstrap .col-sm-4, .bootstrap .col-sm-5, .bootstrap .col-sm-6, .bootstrap .col-sm-7, .bootstrap .col-sm-8, .bootstrap .col-sm-9, .bootstrap .col-sm-10, .bootstrap .col-sm-11, .bootstrap .col-sm-12 {
+    float: left; } }
+.bootstrap .col-sm-3 {
+  width: 25%; }
+@media (min-width: 1200px) {
+  .bootstrap .col-lg-1, .bootstrap .col-lg-2, .bootstrap .col-lg-3, .bootstrap .col-lg-4, .bootstrap .col-lg-5, .bootstrap .col-lg-6, .bootstrap .col-lg-7, .bootstrap .col-lg-8, .bootstrap .col-lg-9, .bootstrap .col-lg-10, .bootstrap .col-lg-11, .bootstrap .col-lg-12 {
+    float: left; }
+  .bootstrap .col-lg-4 {
+    width: 33.33333%; }
+  .bootstrap .col-lg-2 {
+    width: 16.66667%; } }
+
 
 a {
   color: black; }
@@ -815,3 +877,8 @@ pre.syntax-example {
 .media-query-sizes {
   padding: 0;
   list-style-type: none; }
+
+.grid-example {
+  float: left;
+  margin-top: 30px;
+  width: 100%; }
