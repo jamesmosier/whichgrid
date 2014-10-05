@@ -61,63 +61,78 @@ a {
 .bar-wrapper {
 	position: absolute;
 	bottom: 0;
+	height: 30px;
 	width: 100%;
 }
 
 .bar-1 {
 	background: #EE26FF;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-2 {
 	background: #E27451;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-3 {
 	background: #007AFF;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-4 {
 	background: #2FA83E;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-5 {
 	background: #F4FC99;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-6 {
 	background: #6EFCB8;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-7 {
 	background: #FC6E6E;
-	width: 12.5%;
-	float: left;
-	height: 7.5px;
 }
 
 .bar-8 {
 	background: #8067FF;
-	width: 12.5%;
+}
+
+.bar {
 	float: left;
+	width: 12.5%;
 	height: 7.5px;
+
+	transition: height 0.2s;
+    -moz-transition: height 0.2s; 
+    -webkit-transition: height 0.2s; 
+    -o-transition: height 0.2s; 
+    -ms-transition: height 0.2s;
+}
+
+.nav-item {
+	opacity: 0;
+	padding-top: 7px;
+	text-align: center;
+
+	transition:0.2s;
+	-moz-transition:0.2s;
+	-webkit-transition:0.2s;
+	-o-transition:0.2s;
+	-ms-transition:0.2s;
+}
+
+.bar:hover .nav-item  {
+	opacity: 1;	
+	
+	transition:1s;
+	-moz-transition:0.2s;
+	-webkit-transition:0.2s;
+	-o-transition:0.2s;
+	-ms-transition:0.2s;
+}
+
+.bar:hover {
+	height: 30px;
 }
 
 .partial {

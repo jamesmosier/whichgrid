@@ -766,55 +766,63 @@ a {
 .bar-wrapper {
   position: absolute;
   bottom: 0;
+  height: 30px;
   width: 100%; }
 
 .bar-1 {
-  background: #ee26ff;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #ee26ff; }
 
 .bar-2 {
-  background: #e27451;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #e27451; }
 
 .bar-3 {
-  background: #007aff;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #007aff; }
 
 .bar-4 {
-  background: #2fa83e;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #2fa83e; }
 
 .bar-5 {
-  background: #f4fc99;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #f4fc99; }
 
 .bar-6 {
-  background: #6efcb8;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #6efcb8; }
 
 .bar-7 {
-  background: #fc6e6e;
-  width: 12.5%;
-  float: left;
-  height: 7.5px; }
+  background: #fc6e6e; }
 
 .bar-8 {
-  background: #8067ff;
-  width: 12.5%;
+  background: #8067ff; }
+
+.bar {
   float: left;
-  height: 7.5px; }
+  width: 12.5%;
+  height: 7.5px;
+  transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+  -o-transition: height 0.2s;
+  -ms-transition: height 0.2s; }
+
+.nav-item {
+  opacity: 0;
+  padding-top: 7px;
+  text-align: center;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s; }
+
+.bar:hover .nav-item {
+  opacity: 1;
+  transition: 1s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s; }
+
+.bar:hover {
+  height: 30px; }
 
 .partial {
   float: left;
