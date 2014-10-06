@@ -220,4 +220,15 @@ pre.syntax-example {
 	width: 100%;
 }
 
+.foundation-note {
+	background: rgba(249, 251, 255, 0.7);
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(132, 173, 255, 0.29);
+	display: inline;
+	margin-left: 15px;
+	padding: 10px;
+	pre {
+		display: inline;
+	}
+}
 

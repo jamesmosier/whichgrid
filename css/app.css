@@ -723,6 +723,91 @@ textarea.input-elem-lg {
   .bootstrap .col-lg-2 {
     width: 16.66667%; } }
 
+/* Foundation */
+.foundation {
+  margin-top: 30px; }
+  .foundation h5 {
+    margin-bottom: 5px; }
+  .foundation .columns {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #bbbbbb; }
+  .foundation .column, .foundation .columns {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100%;
+    float: left; }
+  .foundation .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5em; }
+  .foundation .row:before, .foundation .row:after {
+    content: " ";
+    display: table; }
+  .foundation .row:after {
+    clear: both; }
+  .foundation .row.collapse > .column, .foundation .row.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
+  .foundation .row.collapse .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .foundation .row .row {
+    width: auto;
+    margin-left: -0.9375em;
+    margin-right: -0.9375em;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: none; }
+  .foundation .row .row:before, .foundation .row .row:after {
+    content: " ";
+    display: table; }
+  .foundation .row .row:after {
+    clear: both; }
+  .foundation .row .row.collapse {
+    width: auto;
+    margin: 0;
+    max-width: none; }
+  .foundation .row .row.collapse:before, .foundation .row .row.collapse:after {
+    content: " ";
+    display: table; }
+  .foundation .row .row.collapse:after {
+    clear: both; }
+  .foundation [class*="column"] + [class*="column"]:last-child {
+    float: right; }
+  .foundation [class*="column"] + [class*="column"].end {
+    float: left; }
+  @media only screen {
+    .foundation .column, .foundation .columns {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      float: left; }
+    .foundation .small-3 {
+      width: 25%; } }
+  @media only screen and (min-width: 40.063em) {
+    .foundation .column, .foundation .columns {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      float: left; }
+    .foundation .medium-4 {
+      width: 33.33333%; } }
+  @media only screen and (min-width: 64.063em) {
+    .foundation .column, .foundation .columns {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      float: left; }
+    .foundation .large-2 {
+      width: 16.66667%; }
+    .foundation .large-4 {
+      width: 33.33333%; } }
+
 
 a {
   color: black; }
@@ -890,3 +975,13 @@ pre.syntax-example {
   float: left;
   margin-top: 30px;
   width: 100%; }
+
+.foundation-note {
+  background: rgba(249, 251, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(132, 173, 255, 0.29);
+  display: inline;
+  margin-left: 15px;
+  padding: 10px; }
+  .foundation-note pre {
+    display: inline; }
