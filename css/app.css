@@ -825,8 +825,12 @@ a {
   height: 30px; }
 
 .partial {
+  border-bottom: 2px solid white;
   float: left;
+  padding-bottom: 35px;
   width: 100%; }
+  .partial.last {
+    border-bottom: none; }
 
 .partial-heading {
   display: inline-block; }

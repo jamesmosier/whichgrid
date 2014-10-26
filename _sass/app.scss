@@ -136,8 +136,13 @@ a {
 }
 
 .partial {
+	border-bottom: 2px solid #fff;
 	float: left;
+	padding-bottom: 35px;
 	width: 100%;
+	&.last {
+		border-bottom: none;
+	}
 }
 
 .partial-heading {

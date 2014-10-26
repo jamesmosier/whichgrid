@@ -7,15 +7,19 @@ layout: default
 	<div class="top-statement">
       <p><span class="name-1">Grid.</span> <span class="name-2">Fluid Layout.</span> <span class="name-3">Responsive Grid.</span> <span class="name-4">Flexible Grid.</span> Whatever you want to call it, there are SO MANY of them to choose from. How could you ever find the <em>right one</em>?</p>
       <p>Unfortunately, I won't tell you which is the greatest, most awesomest grid for your website. Mainly because I don't know. What I have done is compiled a collection of grids from all over the internet. Some you've probably heard of, others you probably have not.</p>
-      <p style="padding-bottom: 40px;">Take a look around and hopefully this helps ease your pain of picking a grid...</p>
+      <p style="padding-bottom: 60px;">Take a look around and hopefully this helps ease your pain of picking a grid...</p>
 
     <nav class="bar-wrapper">
         <div class="bar bar-1">
-            <div class="nav-item">bootstrap</div>
+            <div class="nav-item">
+                <a href="#bootstrap">bootstrap</a>
+            </div>
         </div>
 
 	    <div class="bar bar-2">
-            <div class="nav-item">foundation</div>   
+            <div class="nav-item">
+                <a href="#foundation">foundation</a>
+            </div>   
         </div>
 
 	    <div class="bar bar-3"></div>
@@ -28,10 +32,10 @@ layout: default
 
     </div>
 
-    <article class="partial">
+    <article class="partial" id="bootstrap">
     	{% include_relative partials/bootstrap.html %}
     </article>
-    <article class="partial">
+    <article class="partial" id="foundation">
     	{% include_relative partials/foundation.html %}
     </article>
 
